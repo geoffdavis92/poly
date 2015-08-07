@@ -1,0 +1,29 @@
+{
+  "name": "poly",
+  "version": "0.0.0",
+  "authors": [
+    "geoffdavis92 <geoffdavis92@gmail.com>"
+  ],
+  "description": "GH-Pages site using Polymer web components/polyfill",
+  "keywords": [
+    "geoff",
+    "davis",
+    "polymer",
+    "web",
+    "components",
+    "github"
+  ],
+  "license": "MIT",
+  "homepage": "https://geoffdavis92.github.io/poly",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "polymer": "Polymer/polymer#^1.0.0"
+  }
+}
