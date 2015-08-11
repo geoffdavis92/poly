@@ -25,5 +25,11 @@
   "dependencies": {
     "bootstrap": "~3.3.5",
     "polymer": "Polymer/polymer#^1.0.0"
+  },
+  "devDependencies": {
+    "paper-elements": "PolymerElements/paper-elements#~1.0.4",
+    "iron-elements": "PolymerElements/iron-elements#~1.0.3",
+    "google-web-components": "~1.0.1",
+    "molecules": "PolymerElements/molecules#~1.0.0"
   }
 }
