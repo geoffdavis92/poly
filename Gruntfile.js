@@ -4,7 +4,7 @@ module.exports = function(grunt) {
       watch: {
          all: {
             files: ['**/*.html','**/css/*.css','**/js/*.js','**/js/*.json','**/*.svg','Gruntfile.js'],
-            options: { livereload: 90100 }
+            options: { livereload: 10001 }
          },
          sass: {
             files: 'css/sass/*.sass',

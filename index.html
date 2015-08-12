@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<base href="./bower_components/">
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="import" href="google-signin/google-signin.html">
+	<link rel="import" href="iron-form/iron-form.html">	
 </head>
 <body>
 	<div class="container">
+	  <h1>Google Polymer</h1>
 	  <form action="#" is="iron-form" id="form" method="post">
 	    <paper-input name="name" label="name"></paper-input>
 	    <input type="text" name="address" />
 	  </form>
 
 	  	<button on-click="toggle">toggle</button>
+	  	<br><br>
+	  <google-signin class="sign-in" clientId="844275130627-7o60j8u9qoe3rj50m5sib5m7ik8rig9q.apps.googleusercontent.com" hasPlusScopes="true" raised="true">
+	  </google-signin>
 	</div>
-	<script src="//localhost:90100/livereload.js"></script>
+	<script src="//localhost:10001/livereload.js"></script>
 </body>
 </html>

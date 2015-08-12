@@ -1,16 +1,46 @@
+// Poly Styles
+
+$gray: #58585a
+$green: #009a22
+$orange: #F07E00
+
+$bcolor: #555
+$gbutton-bgc: $gray
+$gbutton-c: lighten($orange,15%)
+
 *:active, *:focus
-  box-shadow: none
-  $green: #009a22
-  $bcolor: $green
-button
-  background-color: transparent
-  border: 2px solid 
-  border-radius: 4px
-  color: $bcolor
-  cursor: pointer
-  font-weight: bolder
-  padding: 5px 10px
-  &:active
-    $bcolor : darken(,5%)
-    border-color: $bcolor
+  box-shadow: none !important 
+  outline: none !important
+body
+  font-family: '-apple-system-body','Helvetica Neue',sans-serif
+div.container
+  margin: 10px 100px
+  form[is="iron-form"]
+    margin: -10px 10px 5px
+    input[type="text"]
+      border: 1px solid #555
+      border-radius: 3px
+      color: #333
+      font-size: 1.25em
+      height: 1.33em
+      margin: 10px 0
+      padding: 3px 3px 3px 6px
+      width: 20% 
+  button
+    background-color: transparent
+    border: 1px solid $bcolor
+    border-radius: 4px
     color: $bcolor
+    cursor: pointer 
+    font-weight: lighter
+    padding: 5px 10px
+    &:active
+      $bcolor : darken($bcolor,5%)
+      border-color: $bcolor
+      color: $bcolor
+.brand-google.theme-dark.google-signin
+  background-color: $gbutton-bgc
+  border: $gbutton-bgc
+  color: $orange
+  #ripple.google-signin
+    color: lighten($gbutton-bgc, 15%)

@@ -1,0 +1,38 @@
+*:active, *:focus {
+  box-shadow: none !important;
+  outline: none !important; }
+
+body {
+  font-family: "-apple-system-body", "Helvetica Neue", sans-serif; }
+
+div.container {
+  margin: 10px 100px; }
+  div.container form[is="iron-form"] {
+    margin: -10px 10px 5px; }
+    div.container form[is="iron-form"] input[type="text"] {
+      border: 1px solid #555;
+      border-radius: 3px;
+      color: #333;
+      font-size: 1.25em;
+      height: 1.33em;
+      margin: 10px 0;
+      padding: 3px 3px 3px 6px;
+      width: 20%; }
+  div.container button {
+    background-color: transparent;
+    border: 1px solid #555;
+    border-radius: 4px;
+    color: #555;
+    cursor: pointer;
+    font-weight: lighter;
+    padding: 5px 10px; }
+    div.container button:active {
+      border-color: #484848;
+      color: #484848; }
+
+.brand-google.theme-dark.google-signin {
+  background-color: #58585a;
+  border: #58585a;
+  color: #F07E00; }
+  .brand-google.theme-dark.google-signin #ripple.google-signin {
+    color: #7e7e81; }
